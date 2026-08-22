@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load('/content/drive/MyDrive/car_price_model.pkl')
+model = joblib.load('car_price_model.pkl')
 
 st.title("Car Price Predictor")
 st.write("Enter car details to predict the price")
